@@ -1,0 +1,81 @@
+/*  shared styles here */
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-primary{
+  background: #E55473;
+  border-radius: 8px;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* header style start */
+.header{
+  background: rgba(229, 84, 115, 0.10);
+  padding: 40px;
+}
+
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content{
+  padding: 40px;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+  display: flex;
+  width: 708px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.banner-description{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  width: 634px;
+  flex-direction: column;
+}
+
+.banner-photo{
+  max-width: 100%;
+  height: auto;
+}
+
+.second{
+  justify-content: center;
+  align-items: center;
+}
+.second-title{
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.second-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+}
+
