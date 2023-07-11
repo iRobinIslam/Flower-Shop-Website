@@ -17,7 +17,29 @@ body{
 }
 
 /* header style start */
-.header{
+.nav-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: palevioletred;
+}
+.home{
+  display:flex;
+}
+.flo{
+  height: 70px;
+}
+ul{
+  display: flex;
+  font-size: 20px;
+  gap: 30px;
+  list-style: none;
+}
+
+
+
+.banner{
   background: rgba(229, 84, 115, 0.10);
   padding: 40px;
 }
@@ -55,6 +77,7 @@ body{
 .banner-photo{
   max-width: 100%;
   height: auto;
+  padding-top: 50px;
 }
 
 .second{
@@ -78,4 +101,5 @@ body{
   width: 594px;
   flex-direction: column;
 }
+
 
