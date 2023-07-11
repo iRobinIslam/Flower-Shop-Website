@@ -102,4 +102,29 @@ ul{
   flex-direction: column;
 }
 
+.featured-title{
+  text-align: center;
+  margin: 150px;
+}
 
+.flower-container{
+  display: inline-flex;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.fs{
+  border-radius: 300px 300px 0px 0px;
+  width: 250px;
+  height: 350px;
+  padding: 70px 40px 0px 40px;
+}
+#fs1{
+  background: rgba(167, 33, 98, 0.15);
+}
+#fs2{
+  background: rgba(5, 151, 160, 0.15);
+}
+#fs3{
+  background: rgba(71, 125, 17, 0.15);
+}
