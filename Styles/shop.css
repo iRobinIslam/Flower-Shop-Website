@@ -37,7 +37,9 @@ ul{
   list-style: none;
 }
 
-
+.of{
+  color: white;
+}
 
 .banner{
   background: rgba(229, 84, 115, 0.10);
@@ -127,4 +129,30 @@ ul{
 }
 #fs3{
   background: rgba(71, 125, 17, 0.15);
+}
+
+.deal{
+  display: flex;
+  background: rgba(229, 84, 115, 0.05);
+  gap: 200px;
+  padding: 100px 0px;
+  justify-content: center;
+}
+.off{
+  color: #E55473;
+}
+.left{
+  margin-top: 120px;
+  text-align: center;
+}
+
+.img-content{
+  margin: 25px;
+  display: inline-flex;
+}
+
+.flower-pic{
+  width: 220px;
+  height: 270px;
+  padding: 0px 6px;
 }
